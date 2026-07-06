@@ -3,15 +3,17 @@
     --second-color--: rgb(30, 151, 145);
     --hover-color--: rgb(138, 138, 167);
     --main-font-color--: rgb(22, 21, 21);
-    --font-family: Roboto , Opens Sans;
+    --font-family:  "Roboto", sans-serif;
 }
 
 * {
     margin: auto;
-    padding: auto;
+    padding: 10px;
     box-sizing: border-box;
 }
-
+header{
+    font-family: var(--font-family);
+}
 #course-title{
     background-color: var(--main-color--);
     color: var(--main-font-color--);
@@ -55,12 +57,12 @@
 .mycountry-image{
     width: 100%;
     height: auto;
-    max-width: 200;
+    max-width: 200px;
     border-radius: 8px;
 }
 
 /* grid main  */
-.parent{
+main{
     display: grid;
     grid-template-rows: auto 1fr;
     grid-template-columns: 1fr auto;
