@@ -1,5 +1,5 @@
 :root{
-    ---main-color---: rgb(23, 158, 129) ;
+    ---main-color---: rgb(103, 132, 212) ;
     ---secondery-color--- : rgba(162, 160, 163, 0.76);
     ---font-color---: rgb(26, 11, 11) ;
     ---font-family---: 'Roboto', sans-serif;
@@ -67,7 +67,7 @@ nav a{
 }
 
 nav a:hover, nav a.active{
-    background-color: rgb(65, 144, 212);
+    background-color: rgb(144, 171, 194);
 }
 
 /* Main content and Grid */
