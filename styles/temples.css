@@ -81,7 +81,7 @@ figure{
     background-color: var(--second-color--);
     margin: 0;
     padding: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0,1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0, 1);
     max-width: 350px;
     border-radius: 5px;
 }
