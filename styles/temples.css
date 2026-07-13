@@ -1,16 +1,16 @@
 :root{
     --main-color--: rgb(94, 112, 160) ;
-    ---secondery-color-- : rgba(162, 160, 163, 0.76);
+    --second-color-- : rgba(162, 160, 163, 0.76);
     --font-color--: rgb(26, 11, 11) ;
     --font-family--: 'Roboto', sans-serif;
 }
 
 body{
-    font-family: var(---font-family---);
+    font-family: var(--font-family--);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--secondery-color--);
+    background-color: var(--second-color--);
 }
 
 header{
@@ -34,7 +34,7 @@ header h1{
     cursor: pointer;
     position: absolute;
     right: 1rem;
-    top: 1 rem;
+    top: 1rem;
 }
 
 #menu::before{
@@ -78,7 +78,7 @@ nav a:hover, nav a.active{
 }
 
 figure{
-    background-color: var(--secondery-color--);
+    background-color: var(--second-color--);
     margin: 0;
     padding: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0,1);
