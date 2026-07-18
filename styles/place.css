@@ -1,0 +1,120 @@
+/* Global CSS Variables (Myanmar Flag Colors) */
+:root {
+    --primary-color: #fecb00; /* Yellow */
+    --secondary-color: #34b233; /* Green */
+    --accent-color: #ea2839; /* Red */
+    --text-color: #222;
+    --bg-color: #f4f6f9;
+    --card-bg: #ffffff;
+    --border-color: #dddddd;
+}
+
+/* Reset and Base Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--primary-color);
+    /* အဝါရောင်ပေါ်မှာ စာသားအနက်ရောင်က ပိုပြီး Contrast ထင်ရှားစေပါတယ် */
+    color: #000; 
+    text-align: center;
+    padding: 1.2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Mobile First Layout */
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.hero-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+section {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 1.5rem;
+    border-radius: 6px;
+}
+
+section h2 {
+    border-bottom: 3px solid var(--secondary-color);
+    margin-bottom: 1rem;
+    padding-bottom: 0.3rem;
+    color: var(--secondary-color);
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed #eee;
+    padding-bottom: 0.3rem;
+}
+
+.weather-icon-container {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.weather-icon {
+    width: 80px;
+    height: auto;
+}
+
+footer {
+    background-color: rgb(30, 151, 145);
+    color: white;
+    text-align: center;
+    padding: 1.2rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+/* ------------------------------------------------------------------- */
+/* Larger Viewports (Desktop / Tablet) - Media Query */
+@media (min-width: 768px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+        max-width: 1024px;
+        margin: 0 auto;
+        padding-top: 2rem;
+    }
+
+    .hero-container {
+        grid-column: 1 / -1;
+    }
+
+    .weather-icon-container {
+        display: none;
+    }
+
+    /* Desktop View Weather Heading Emoticon */
+    .weather-heading::after {
+        content: " ☀️";
+    }
+}

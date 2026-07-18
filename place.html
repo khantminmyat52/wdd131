@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Country</title>
+    <link rel="stylesheet" href="./styles/place.css">
+    <script src="./scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Myanmar</h1>
+    </header>
+
+    <main>
+        <div class="hero-container">
+            <picture>
+                <source media="(min-width: 600px)" srcset="./images/hero-image-large.webp">
+                <img src="./images/hero-image-small.webp" alt="world in Myanmar" class="hero-image">
+            </picture>
+        </div>
+
+        <section class="data-section">
+            <h2>Data</h2>
+            <ul>
+                <li><strong>Area:</strong> 676,578 sq km</li>
+                <li><strong>Population:</strong> 54,000,000</li>
+                <li><strong>Capital:</strong> Naypyidaw</li>
+                <li><strong>Languages:</strong> Burmese</li>
+                <li><strong>Currency:</strong> Myanmar Kyat (MMK)</li>
+                <li><strong>Time Zone:</strong> UTC+6:30</li>
+                <li><strong>Calling Code:</strong> +95</li>
+                <li><strong>Internet TLD:</strong> .mm</li>
+            </ul>
+        </section>
+
+        <section class="weather-section">
+            <h2 class="weather-heading">Weather</h2>
+            <div class="weather-icon-container">
+                <img src="images/weather.svg" alt="Sunny" class="weather-icon">
+            </div>
+            
+            <ul>
+                <li><strong>Temperature:</strong> <span id="temp">9</span> °C</li>
+                <li><strong>Conditions:</strong> Sunny</li>
+                <li><strong>Wind:</strong> <span id="wind">6</span> km/h</li>
+                <li><strong>Wind Chill:</strong> <span id="windchill">N/A</span></li>
+            </ul>
+        </section>
+    </main>
+</body>
+    <footer>
+        <p>©️<span id="current-year"></span>🏙️ Khant Min Myat 🏙️ Myanmar</p>
+        <p>
+            Last Modification: <span id="last-modified"></span>
+        </p>
+    </footer>
+</body>
+</html>
