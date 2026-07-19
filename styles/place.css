@@ -25,7 +25,6 @@ body {
 
 header {
     background-color: var(--primary-color);
-    /* အဝါရောင်ပေါ်မှာ စာသားအနက်ရောင်က ပိုပြီး Contrast ထင်ရှားစေပါတယ် */
     color: #000; 
     text-align: center;
     padding: 1.2rem;
@@ -72,6 +71,8 @@ ul li {
     justify-content: space-between;
     border-bottom: 1px dashed #eee;
     padding-bottom: 0.3rem;
+    color: #000;
+    font-weight: 600;
 }
 
 .weather-icon-container {
@@ -86,7 +87,8 @@ ul li {
 
 footer {
     background-color: rgb(30, 151, 145);
-    color: white;
+    color: rgb(26, 24, 24);
+    font-weight: 600;
     text-align: center;
     padding: 1.2rem;
     margin-top: 2rem;
