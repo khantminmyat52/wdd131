@@ -4,9 +4,9 @@
     --secondary-color: #0c0481; /* Green */
     --accent-color: #ea2839; /* Red */
     --text-color: #222;
-    --bg-color: #f4f6f9;
-    --card-bg: #ffffff;
-    --border-color: #dddddd;
+    --bg-color: #dee1e6;
+    --card-bg: #ffffffdc;
+    --border-color: #1d1b1b;
 }
 
 /* Reset and Base Styles */
@@ -24,8 +24,8 @@ body {
 }
 
 header {
-    background-color: var(--primary-color);
-    color: #000; 
+    background-color: rgb(54, 138, 247);
+    color: #160404; 
     text-align: center;
     padding: 1.2rem;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
