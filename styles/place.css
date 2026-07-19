@@ -1,7 +1,7 @@
 /* Global CSS Variables (Myanmar Flag Colors) */
 :root {
     --primary-color: #fecb00; /* Yellow */
-    --secondary-color: #34b233; /* Green */
+    --secondary-color: #0c0481; /* Green */
     --accent-color: #ea2839; /* Red */
     --text-color: #222;
     --bg-color: #f4f6f9;
@@ -71,8 +71,8 @@ ul li {
     justify-content: space-between;
     border-bottom: 1px dashed #eee;
     padding-bottom: 0.3rem;
-    color: #000;
-    font-weight: 600;
+    color: var(--secondary-color);
+    font-weight: 400;
 }
 
 .weather-icon-container {
@@ -86,8 +86,8 @@ ul li {
 }
 
 footer {
-    background-color: rgb(30, 151, 145);
-    color: rgb(26, 24, 24);
+    background-color: rgb(28, 54, 53);
+    color: rgb(240, 239, 239);
     font-weight: 600;
     text-align: center;
     padding: 1.2rem;
