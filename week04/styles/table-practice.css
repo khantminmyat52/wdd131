@@ -1,0 +1,40 @@
+table{
+    width: 500px;
+    height: 200px;
+    border-collapse: collapse;
+
+    caption{
+        caption-side: bottom;
+        margin-top: 3px;
+    }
+}
+
+thead{
+    background-color: black;
+    color: white;
+}
+
+.subtitle{
+    background-color: rgb(70, 52, 52);
+    padding: 5px;
+}
+.main-title{
+    padding: 5px;
+}
+
+td, th{
+    border: 3px solid black;
+}
+
+td{
+    text-align: center;
+}
+
+th{
+    width: 100px;
+    height: 30px;
+}
+
+tbody tr:nth-child(even){
+    background-color: #d1b8b8;
+}

@@ -1,0 +1,32 @@
+
+/* Large screens layout(width >= 600px) */
+@media screen and (min-width: 600px) {
+    header{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    }
+
+    header h1 {
+        margin: 0;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    nav{
+        display: flex !important;
+        flex-direction: row;
+        width: auto;
+    }
+
+    nav a {
+        padding: 0.5rem 1rem;
+    }
+    /* Grid layout */
+
+    .grid-container{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
