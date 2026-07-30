@@ -1,0 +1,72 @@
+/* Color Palette definition */
+:root {
+    --primary-color: #0F172A;
+    --secondary-color: #0EA5E9;
+    --accent-color: #38BDF8;
+    --bg-color: #F8FAFC;
+    --text-color: #1E293B;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    color: var(--secondary-color);
+}
+
+header h2 {
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 5px 0 0 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-left: 6px solid var(--secondary-color);
+}
+
+h3 {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: var(--primary-color);
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #64748B;
+    font-size: 0.9rem;
+}
