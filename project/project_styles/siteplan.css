@@ -64,6 +64,29 @@ li {
     margin-bottom: 8px;
 }
 
+/* Wireframe Images Styling */
+.wireframe-container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.wireframe-container h4 {
+    color: var(--primary-color);
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.wireframe-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 footer {
     text-align: center;
     padding: 10px;
