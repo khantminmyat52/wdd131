@@ -1,10 +1,10 @@
 :root {
     --primary-color: #4A154B;
     --primary-hover: #361037;
-    --bg-color: #f4f4f9;
-    --form-bg: #ffffff;
-    --text-color: #333333;
-    --border-color: #cccccc;
+    --bg-color: #f1f1f3;
+    --form-bg: #c0c0a5;
+    --text-color: #0e0c0c;
+    --border-color: #e0d7d7;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 
 header h1 {
     text-align: center;
-    color: var(--primary-color);
+    color: black;
 }
 
 main {
@@ -75,14 +75,14 @@ textarea {
 }
 
 .optional {
-    font-weight: normal;
-    color: #666;
+    font-weight: bolder;
+    color: #0a0a0a;
     font-size: 0.9em;
 }
 
 .submit-btn {
     width: 100%;
-    background-color: var(--primary-color);
+    background-color: black;
     color: white;
     padding: 12px;
     border: none;
@@ -94,7 +94,7 @@ textarea {
 }
 
 .submit-btn:hover {
-    background-color: var(--primary-hover);
+    background-color: rgb(77, 151, 54);
 }
 
 /* Confirmation Page Styles */
