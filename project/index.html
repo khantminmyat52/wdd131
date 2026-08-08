@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gamer Hub - Beginners guide to games, character overviews, gameplay tips, and gaming news.">
+    <meta name="author" content="Khant Min Myat">
+    <title>Gamer Hub | Beginner's Guide & Gaming Info</title>
+    <link rel="stylesheet" href="./project_styles/main.css">
+    <script src="./scripts/main.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Gamer Hub</h1>
+        </div>
+        <nav>
+            <button id="menu-toggle" aria-label="Toggle Navigation">☰ Menu</button>
+            <ul id="nav-menu" class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="guides.html">Game Guides</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to Gamer Hub</h2>
+        <p>Your ultimate beginner-friendly guide to modern gaming, mechanics and strategies.</p>
+        <a href="guides.html" class="btn">Explore Guides</a>
+    </section>
+
+    <main>
+        <section class="featured-section">
+            <h2>Popular Beginner Games</h2>
+            <div class="game-grid" id="game-container">
+                </div>
+        </section>
+
+        <section class="form-section">
+            <h2>Join Our Gaming Newsletter</h2>
+            <form id="newsletter-form">
+                <div class="form-group">
+                    <label for="username">Gamertag / Name:</label>
+                    <input type="text" id="username" name="username" required placeholder="e.g. PlayerOne">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="you@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="platform">Favorite Platform:</label>
+                    <select id="platform" name="platform" required>
+                        <option value="">-- Select Platform --</option>
+                        <option value="pc">PC</option>
+                        <option value="console">Console (PlayStation/Xbox/Switch)</option>
+                        <option value="mobile">Mobile</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+            <p id="form-message" class="message"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Gamer Hub | Designed by Khant Min Myat | WDD 131 Project</p>
+        <p><a href="references.html">References</a></p>
+    </footer>
+
+</body>
+</html>
