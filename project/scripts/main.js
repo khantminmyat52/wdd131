@@ -1,25 +1,25 @@
-// Dynamic Game Array (JS Objects & Arrays)
+// Dynamic Game Array with direct High-Quality Game Visuals
 const games = [
     {
         title: "Elden Ring",
         genre: "Action RPG",
         difficulty: "Hard",
-        description: "A vast open-world RPG perfect for players who enjoy deep lore and challenging combat mechanics.",
-        image: "https://picsum.photos/300/200?random=1"
+        description: "A vast open-world RPG perfect for players who enjoy deep lore, exploration, and challenging combat mechanics.",
+        image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=600&q=80"
     },
     {
         title: "Minecraft",
         genre: "Sandbox",
         difficulty: "Easy",
-        description: "An open sandbox game that focuses on creativity, exploration and simple survival mechanics.",
-        image: "https://picsum.photos/300/200?random=2"
+        description: "An open sandbox game that focuses on creativity, building, resource gathering, and simple survival mechanics.",
+        image: "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=600&q=80"
     },
     {
         title: "Genshin Impact",
         genre: "Open World RPG",
         difficulty: "Medium",
-        description: "A free-to-play action RPG featuring elemental combat mechanics and character switching.",
-        image: "https://picsum.photos/300/200?random=3"
+        description: "A free-to-play action RPG featuring elemental combat mechanics, rich storylines, and dynamic character switching.",
+        image: "https://images.unsplash.com/photo-1560253023-3ec5d502959f?auto=format&fit=crop&w=600&q=80"
     }
 ];
 
